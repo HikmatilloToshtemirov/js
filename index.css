@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.active {
+  width: 500px !important ;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+  margin-top: 70px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  column-gap: 70px;
+  margin-top: 30px;
+}
+.img_vazifa {
+  height: 600px;
+  width: 100px;
+  border-radius: 50px;
+  transition: 1s all;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: start;
+  padding: 30px;
+  color: white;
+  overflow: hidden;
+}
